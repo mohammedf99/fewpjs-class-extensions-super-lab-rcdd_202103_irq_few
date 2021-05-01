@@ -25,7 +25,7 @@ class Evergreen extends Tree {
   
   constructor(species, name) {
     super(species);
-    this.name = 'Evergreen';
+    this.name = name;
   }
   
   static definition() {
